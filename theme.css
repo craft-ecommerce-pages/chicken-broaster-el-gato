@@ -57,11 +57,11 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 /* Logo: mix-blend lighten invisible el fondo negro del JPG actual.
    ponytail: quitar mix-blend-mode cuando reemplacen por PNG con fondo transparente */
 .brand-logo {
-  width: 130px;
-  height: 130px;
+  width: 185px;
+  height: 185px;
   object-fit: contain;
   mix-blend-mode: lighten;
-  filter: drop-shadow(0 0 16px rgba(245,168,0,.25));
+  filter: drop-shadow(0 0 20px rgba(245,168,0,.3));
   border-radius: 50%;
 }
 
