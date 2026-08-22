@@ -117,45 +117,54 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 }
 .search-box input::placeholder { color: var(--text-dim); }
 
-/* ── 5. Chips de categoría ── */
+/* ── 5. Chips de categoría (tile-icon + label debajo, estilo Gordo Paul) ── */
 .cat-chip {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 5px;
-  padding: 10px 12px;
-  min-width: 68px;
-  background: var(--surface);
-  border: 1px solid var(--border-2);
+  gap: 6px;
+  padding: 0;
+  min-width: 60px;
+  background: transparent;      /* el chip NO es una caja */
+  border: 0;
   color: var(--text-soft);
   font-family: 'DM Sans', sans-serif;
   font-weight: 600;
-  border-radius: 14px;          /* cuadrado, no píldora */
-  transition: background .15s, color .15s, border-color .15s;
 }
+/* el tile: cuadrado redondeado que contiene el emoji */
 .cat-chip .ic {
-  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  font-size: 26px;
   line-height: 1;
-  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: 16px;
+  transition: background .15s, border-color .15s, box-shadow .15s, transform .15s;
 }
 .cat-chip .lb {
   font-size: 11px;
   font-weight: 600;
   line-height: 1.1;
-  max-width: 62px;
+  max-width: 64px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: center;
+  color: var(--text-soft);
 }
-.cat-chip:hover { background: var(--surface-2); color: var(--text); }
-.cat-chip.active {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: #fff;
+.cat-chip:hover .ic { background: var(--surface-2); }
+/* activo: solo el tile se vuelve naranja con glow; el label se pinta primary */
+.cat-chip.active .ic {
+  background: linear-gradient(150deg, var(--accent) 0%, var(--primary) 100%);
+  border-color: transparent;
+  box-shadow: 0 4px 16px rgba(212,55,10,.5);
+  transform: translateY(-1px);
 }
-.cat-chip.active .lb { color: #fff; }
+.cat-chip.active .lb { color: var(--primary); }
 
 /* ── 6. Headers de sección ── */
 .cat-header {
