@@ -1,0 +1,22 @@
+{
+  "badge_category": "combos_pollo",
+  "categories": {
+    "asados_parrilla": "🔥 Asados a la Parrilla",
+    "bebidas": "🥤 Bebidas",
+    "combos_pollo": "🍗 Combos de Pollo",
+    "parrilladas": "🥩 Parrilladas",
+    "platos_menestra": "🥘 Arroz con Menestra",
+    "porciones": "➕ Porciones y Extras",
+    "tarrinazo": "🫙 Tarrinazo"
+  },
+  "currency": "$",
+  "hero_title": "El sabor que te \u003cspan class=\"hl\"\u003eatrapa\u003c/span\u003e 🍗",
+  "location_intro": "Palestina · Frente a CNT · Vía Balzar · Guayaquil",
+  "logo": "logo.png",
+  "site_title": "Chicken Broaster El Gato – Palestina, Guayaquil",
+  "store_name": "Chicken Broaster \"El Gato\"",
+  "theme_accent": "#F5A800",
+  "theme_primary": "#D4370A",
+  "whatsapp_message": "¡Hola El Gato! 🐱 Quiero hacer un pedido:",
+  "whatsapp_number": "593989237657"
+}
