@@ -1,1 +1,547 @@
-[]
+[
+  {
+    "id": "7cc537a8-6898-4981-91e0-6b8754655964",
+    "slug": "arroz-blanco-y-menestra",
+    "nombre": "Arroz Blanco y Menestra",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción de arroz blanco con menestra.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "d2d57293-6d14-4b6e-9f7d-6dd9c4a747c0",
+    "slug": "arroz-y-moro-adicional",
+    "nombre": "Arroz y Moro Adicional",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción adicional de arroz y moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "6dacd5d3-260e-42ef-9f6f-fcf0e194f49a",
+    "slug": "camarones-apanados-arroz-y-menestra",
+    "nombre": "Camarones Apanados + Arroz y Menestra",
+    "precio": "8.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Camarones apanados dorados con arroz y menestra, patacones y ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "e955553c-fd20-4dda-bedf-370f6f06cc04",
+    "slug": "carne-asada-a-la-parrilla",
+    "nombre": "Carne Asada a la Parrilla",
+    "precio": "5.00",
+    "precio_promo": "",
+    "categorias": [
+      "asados_parrilla"
+    ],
+    "descripcion": "Carne asada a la parrilla + papa frita + ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "30ccf098-82e4-4b1f-abdd-dfd15c33a747",
+    "slug": "carne-asada-arroz-y-menestra",
+    "nombre": "Carne Asada + Arroz y Menestra",
+    "precio": "4.50",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Carne asada jugosa con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "42385475-85fd-488b-a8f0-5d9f19f1c418",
+    "slug": "chuleta-asada-a-la-parrilla",
+    "nombre": "Chuleta Asada a la Parrilla",
+    "precio": "5.00",
+    "precio_promo": "",
+    "categorias": [
+      "asados_parrilla"
+    ],
+    "descripcion": "Chuleta asada a la parrilla + papa frita + ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "c3275974-ef15-4534-886d-beb3ed6e847f",
+    "slug": "chuleta-asada-arroz-y-menestra",
+    "nombre": "Chuleta Asada + Arroz y Menestra",
+    "precio": "4.50",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Chuleta asada a la perfección con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "3b6ea406-cbd1-4fb6-96de-50b7f948e6ae",
+    "slug": "chuzo-cuencano-arroz-y-menestra",
+    "nombre": "Chuzo Cuencano + Arroz y Menestra",
+    "precio": "4.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Chuzo cuencano asado con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "0b372b79-defd-413f-8938-9a2e285b12b1",
+    "slug": "combo-10-presas",
+    "nombre": "Combo 10 Presas",
+    "precio": "17.50",
+    "precio_promo": "",
+    "categorias": [
+      "combos_pollo"
+    ],
+    "descripcion": "10 presas de pollo broster + 2 porciones de papa frita. Ideal para compartir.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "9dd87e83-7f97-4c16-b706-fd066d423516",
+    "slug": "combo-15-presas",
+    "nombre": "Combo 15 Presas",
+    "precio": "28.00",
+    "precio_promo": "",
+    "categorias": [
+      "combos_pollo"
+    ],
+    "descripcion": "15 presas de pollo broster + 3 porciones de papa frita + 1 cola de litro. ¡Para toda la familia!",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "7da04e19-fa0d-49b3-abd2-c7cd916f051d",
+    "slug": "combo-5-presas",
+    "nombre": "Combo 5 Presas",
+    "precio": "8.75",
+    "precio_promo": "",
+    "categorias": [
+      "combos_pollo"
+    ],
+    "descripcion": "5 presas de pollo broster + 1 porción de papa frita. ¡El favorito de uno!",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "a72f8e84-f7b0-4aaa-8295-ac1dfb0ba6b5",
+    "slug": "combo-clasico-tarrinazo-cola",
+    "nombre": "Combo Clásico – Tarrinazo + Cola",
+    "precio": "3.50",
+    "precio_promo": "",
+    "categorias": [
+      "tarrinazo"
+    ],
+    "descripcion": "Tarrinazo (menestra + moro o arroz + papa frita + proteína a elección) acompañado de cola. ¡El combo del día!",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Proteína",
+        "options": [
+          "Pollo Broaster",
+          "Chuleta",
+          "Carne",
+          "Filete de Pollo",
+          "Costilla"
+        ],
+        "type": "option"
+      },
+      {
+        "name": "Arroz",
+        "options": [
+          "Moro",
+          "Arroz Blanco",
+          "Arroz con Menestra"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "373084a6-b819-42cf-9752-850f362c6a27",
+    "slug": "corvina-asada-arroz-y-menestra",
+    "nombre": "Corvina Asada + Arroz y Menestra",
+    "precio": "10.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Corvina asada al punto con arroz y menestra, patacones y ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "fabeb600-2f51-4629-b56a-e15b2acdf692",
+    "slug": "corvina-frita-arroz-y-menestra",
+    "nombre": "Corvina Frita + Arroz y Menestra",
+    "precio": "10.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Corvina frita crocante con arroz y menestra, patacones y ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "f8cb6f4f-0cec-4bb7-95b1-a1fee567ec67",
+    "slug": "costilla-asada-a-la-parrilla",
+    "nombre": "Costilla Asada a la Parrilla",
+    "precio": "6.00",
+    "precio_promo": "",
+    "categorias": [
+      "asados_parrilla"
+    ],
+    "descripcion": "Costilla asada a la parrilla + papa frita + ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "ce77c87e-c78f-43d3-bd30-9d5c5c8b00d2",
+    "slug": "costilla-asada-arroz-y-menestra",
+    "nombre": "Costilla Asada + Arroz y Menestra",
+    "precio": "4.50",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Costilla asada tierna con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "ec8bd6ae-082e-47ec-bedf-dfdcdc177f1f",
+    "slug": "filete-de-pollo-a-la-parrilla",
+    "nombre": "Filete de Pollo a la Parrilla",
+    "precio": "5.00",
+    "precio_promo": "",
+    "categorias": [
+      "asados_parrilla"
+    ],
+    "descripcion": "Filete de pollo a la parrilla + papa frita + ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "e6439445-107f-40b4-b6c7-5d2eac64a230",
+    "slug": "filete-de-pollo-arroz-y-menestra",
+    "nombre": "Filete de Pollo + Arroz y Menestra",
+    "precio": "4.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Filete de pollo asado con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "23b45cc2-525b-4418-8d42-65adcafd32a3",
+    "slug": "parrillada-doble",
+    "nombre": "Parrillada Doble",
+    "precio": "16.00",
+    "precio_promo": "",
+    "categorias": [
+      "parrilladas"
+    ],
+    "descripcion": "2 carne + 2 chuleta + 2 costillas + 2 filete de pollo + 2 chorizos + porción de papa.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "88b56507-9b78-4f96-9fb4-8cdf2bf254d4",
+    "slug": "parrillada-sencilla",
+    "nombre": "Parrillada Sencilla",
+    "precio": "8.50",
+    "precio_promo": "",
+    "categorias": [
+      "parrilladas"
+    ],
+    "descripcion": "Carne + chuleta + filete de pollo + 1 chorizo + 1 porción de papa + ensalada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "b991bc36-0854-402b-8541-53a6c077fd50",
+    "slug": "patacones-con-queso-rayado",
+    "nombre": "Patacones con Queso Rayado",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción de patacones con queso rayado.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "9f84a8c1-89fb-44eb-97d2-784e6595e03c",
+    "slug": "picadita-mixta",
+    "nombre": "Picadita Mixta",
+    "precio": "4.50",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Picadita de ensalada, carne, chuleta y pollo. ¡Variedad en un solo plato!",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "458f3947-5734-4872-b744-83175b403125",
+    "slug": "pollo-broaster-arroz-y-menestra",
+    "nombre": "Pollo Broaster + Arroz y Menestra",
+    "precio": "4.00",
+    "precio_promo": "",
+    "categorias": [
+      "platos_menestra"
+    ],
+    "descripcion": "Pollo broaster crocante con arroz y menestra o moro.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Arroz",
+        "options": [
+          "Arroz con Menestra",
+          "Moro",
+          "Arroz Blanco"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "1078130a-69ee-42e4-a6bc-7d933877bb45",
+    "slug": "porcion-de-longaniza",
+    "nombre": "Porción de Longaniza",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción de longaniza a la parrilla.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "cbd3d785-783c-4862-b917-35f50da8e2a1",
+    "slug": "porcion-de-papa",
+    "nombre": "Porción de Papa",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Porción de papa frita dorada.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "c9647547-01b7-46c9-8a7c-5e3077bf2f0d",
+    "slug": "presa-adicional",
+    "nombre": "Presa Adicional",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Presa adicional de pollo broaster. Precio por unidad.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "e9a81058-46ea-49c7-b607-1b5427136745",
+    "slug": "salchipapa-mediana",
+    "nombre": "Salchipapa Mediana",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Salchipapa mediana clásica.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "1b876b8c-9edf-4773-9e24-25b53cd030c3",
+    "slug": "tarrina-de-menestra",
+    "nombre": "Tarrina de Menestra",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "porciones"
+    ],
+    "descripcion": "Tarrina de menestra, disponible en dos tamaños.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "Media libra ($1.50)",
+            "price": 1.5
+          },
+          {
+            "label": "Una libra ($2.50)",
+            "price": 2.5
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  }
+]
