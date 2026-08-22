@@ -408,7 +408,9 @@
     ],
     "descripcion": "Papas fritas con pollo broaster crocante. Elige tu tamaño.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/papipollo/images/papipollo-1.webp"
+    ],
     "variantes": [
       {
         "name": "Tamaño",
