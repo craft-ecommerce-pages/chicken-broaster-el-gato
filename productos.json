@@ -466,7 +466,9 @@
     ],
     "descripcion": "Carne + chuleta + filete de pollo + 1 chorizo + 1 porción de papa + ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/parrillada-sencilla/images/parrillada-sencilla-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
