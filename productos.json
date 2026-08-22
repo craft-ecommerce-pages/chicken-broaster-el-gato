@@ -10,7 +10,9 @@
     ],
     "descripcion": "Porción de arroz blanco con menestra.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/arroz-blanco-y-menestra/images/arroz-blanco-y-menestra-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -25,7 +27,9 @@
     ],
     "descripcion": "Porción adicional de arroz y moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/arroz-y-moro-adicional/images/arroz-y-moro-adicional-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -40,7 +44,9 @@
     ],
     "descripcion": "Camarones apanados dorados con arroz y menestra, patacones y ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/camarones-apanados-arroz-y-menestra/images/camarones-apanados-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -65,7 +71,9 @@
     ],
     "descripcion": "Carne asada a la parrilla + papa frita + ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/carne-asada-a-la-parrilla/images/carne-asada-a-la-parrilla-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -80,7 +88,9 @@
     ],
     "descripcion": "Carne asada jugosa con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/carne-asada-arroz-y-menestra/images/carne-asada-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -105,7 +115,9 @@
     ],
     "descripcion": "Chuleta asada a la parrilla + papa frita + ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/chuleta-asada-a-la-parrilla/images/chuleta-asada-a-la-parrilla-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -120,7 +132,9 @@
     ],
     "descripcion": "Chuleta asada a la perfección con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/chuleta-asada-arroz-y-menestra/images/chuleta-asada-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -145,7 +159,9 @@
     ],
     "descripcion": "Chuzo cuencano asado con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/chuzo-cuencano-arroz-y-menestra/images/chuzo-cuencano-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -170,7 +186,9 @@
     ],
     "descripcion": "10 presas de pollo broster + 2 porciones de papa frita. Ideal para compartir.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/combo-10-presas/images/combo-10-presas-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -185,7 +203,9 @@
     ],
     "descripcion": "15 presas de pollo broster + 3 porciones de papa frita + 1 cola de litro. ¡Para toda la familia!",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/combo-15-presas/images/combo-15-presas-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -200,7 +220,9 @@
     ],
     "descripcion": "5 presas de pollo broster + 1 porción de papa frita. ¡El favorito de uno!",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/combo-5-presas/images/combo-5-presas-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -215,7 +237,9 @@
     ],
     "descripcion": "Tarrinazo (menestra + moro o arroz + papa frita + proteína a elección) acompañado de cola. ¡El combo del día!",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/combo-clasico-tarrinazo-cola/images/combo-clasico-tarrinazo-cola-1.webp"
+    ],
     "variantes": [
       {
         "name": "Proteína",
@@ -251,7 +275,9 @@
     ],
     "descripcion": "Corvina asada al punto con arroz y menestra, patacones y ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/corvina-asada-arroz-y-menestra/images/corvina-asada-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -276,7 +302,9 @@
     ],
     "descripcion": "Corvina frita crocante con arroz y menestra, patacones y ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/corvina-frita-arroz-y-menestra/images/corvina-frita-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -301,7 +329,9 @@
     ],
     "descripcion": "Costilla asada a la parrilla + papa frita + ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/costilla-asada-a-la-parrilla/images/costilla-asada-a-la-parrilla-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -316,7 +346,9 @@
     ],
     "descripcion": "Costilla asada tierna con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/costilla-asada-arroz-y-menestra/images/costilla-asada-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -341,7 +373,9 @@
     ],
     "descripcion": "Filete de pollo a la parrilla + papa frita + ensalada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/filete-de-pollo-a-la-parrilla/images/filete-de-pollo-a-la-parrilla-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -356,7 +390,9 @@
     ],
     "descripcion": "Filete de pollo asado con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/filete-de-pollo-arroz-y-menestra/images/filete-de-pollo-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -381,7 +417,9 @@
     ],
     "descripcion": "2 carne + 2 chuleta + 2 costillas + 2 filete de pollo + 2 chorizos + porción de papa.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/parrillada-doble/images/parrillada-doble-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -411,7 +449,9 @@
     ],
     "descripcion": "Porción de patacones con queso rayado.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/patacones-con-queso-rayado/images/patacones-con-queso-rayado-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -426,7 +466,9 @@
     ],
     "descripcion": "Picadita de ensalada, carne, chuleta y pollo. ¡Variedad en un solo plato!",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/picadita-mixta/images/picadita-mixta-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -441,7 +483,9 @@
     ],
     "descripcion": "Pollo broaster crocante con arroz y menestra o moro.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/pollo-broaster-arroz-y-menestra/images/pollo-broaster-arroz-y-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Arroz",
@@ -466,7 +510,9 @@
     ],
     "descripcion": "Porción de longaniza a la parrilla.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/porcion-de-longaniza/images/porcion-de-longaniza-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -481,7 +527,9 @@
     ],
     "descripcion": "Porción de papa frita dorada.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/porcion-de-papa/images/porcion-de-papa-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -496,7 +544,9 @@
     ],
     "descripcion": "Presa adicional de pollo broaster. Precio por unidad.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/presa-adicional/images/presa-adicional-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -511,7 +561,9 @@
     ],
     "descripcion": "Salchipapa mediana clásica.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/salchipapa-mediana/images/salchipapa-mediana-1.webp"
+    ],
     "variantes": [],
     "sku": ""
   },
@@ -526,7 +578,9 @@
     ],
     "descripcion": "Tarrina de menestra, disponible en dos tamaños.",
     "stock": null,
-    "imagenes": null,
+    "imagenes": [
+      "/producto/tarrina-de-menestra/images/tarrina-de-menestra-1.webp"
+    ],
     "variantes": [
       {
         "name": "Tamaño",
