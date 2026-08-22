@@ -1,2 +1,316 @@
-/* CSS bespoke de Las Hamburguesas del Gordo Paul.
-   El esqueleto viene del motor; la paleta de config.theme. Aquí solo overrides a mano. */
+/* ══════════════════════════════════════════════════════════
+   Chicken Broaster "El Gato" — Bespoke theme
+   Paleta: negro logo (#0A0A0A) + rojo-naranja (#D4370A) + dorado (#F5A800)
+   Tipografía: Anton (impacto fast-food) + DM Sans (cuerpo)
+   ══════════════════════════════════════════════════════════ */
+
+/* ── 1. Paleta completa ── */
+:root {
+  --primary:     #D4370A;
+  --accent:      #F5A800;
+  --bg:          #0A0A0A;
+  --bg-2:        #121212;
+  --surface:     #1C1C1C;
+  --surface-2:   #272727;
+  --border:      #2A2A2A;
+  --border-2:    #383838;
+  --text:        #F5F5F5;
+  --text-soft:   #C0C0C0;
+  --text-dim:    #777777;
+  --radius:      14px;
+  --hl-start:    #D4370A;
+  --hl-end:      #F5A800;
+  --shadow-card: 0 4px 18px rgba(0,0,0,.55);
+}
+
+/* ── 2. Tipografía ── */
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); }
+
+.card-name,
+.card-price,
+.cat-header,
+.modal-detail .prod-name,
+.modal-detail .prod-price,
+.cart-total-value,
+#cartTitle,
+.brand-name { font-family: 'Anton', sans-serif; letter-spacing: .5px; }
+
+/* ── 3. Hero ── */
+.hero {
+  background:
+    linear-gradient(175deg, #0A0A0A 0%, #1a0800 60%, #0A0A0A 100%);
+  padding-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* llama sutil de fondo */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 55% at 50% 95%,
+    rgba(212,55,10,.18) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Logo: mix-blend lighten invisible el fondo negro del JPG actual.
+   ponytail: quitar mix-blend-mode cuando reemplacen por PNG con fondo transparente */
+.brand-logo {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  mix-blend-mode: lighten;
+  filter: drop-shadow(0 0 16px rgba(245,168,0,.25));
+  border-radius: 50%;
+}
+
+/* zona del logo: fondo transparente para cuando llegue el PNG definitivo */
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+}
+
+.brand-sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: .8;
+  margin-left: 0 !important;
+}
+
+.hero h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: clamp(2rem, 9vw, 2.8rem);
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.hl {
+  background: linear-gradient(90deg, var(--hl-start), var(--hl-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── 4. Sticky bar & búsqueda ── */
+.sticky-bar { background: var(--bg-2); border-bottom: 1px solid var(--border); }
+
+.search-box {
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: 10px;
+}
+.search-box input { color: var(--text); }
+.search-box input::placeholder { color: var(--text-dim); }
+.search-box svg { color: var(--text-dim); }
+
+/* ── 5. Chips de categoría ── */
+.cat-chip {
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  color: var(--text-soft);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 22px;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.cat-chip:hover { background: var(--surface-2); color: var(--text); }
+.cat-chip.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+/* ── 6. Headers de sección ── */
+.cat-header {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text);
+  border-left: 4px solid var(--primary);
+  padding-left: 10px;
+}
+
+/* ── 7. Cards ── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  transition: transform .15s, box-shadow .15s;
+}
+.card:active { transform: scale(.98); }
+
+.card-img-placeholder {
+  background: linear-gradient(135deg, #1e1e1e 0%, #2a1a10 100%);
+}
+
+.card-name { font-size: .92rem; letter-spacing: .3px; color: var(--text); }
+.card-desc { color: var(--text-soft); font-size: .78rem; }
+.card-price { font-size: 1.05rem; color: var(--accent); letter-spacing: .2px; }
+
+.card-badge {
+  background: var(--primary);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+/* ── 8. Botón añadir ── */
+.btn-add {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  box-shadow: 0 2px 10px rgba(212,55,10,.35);
+  transition: background .15s, box-shadow .15s;
+}
+.btn-add:hover { background: #be2f06; box-shadow: 0 4px 16px rgba(212,55,10,.5); }
+
+.qty-control button { background: var(--surface-2); color: var(--text); border: 1px solid var(--border-2); }
+.qty-control .qty-val { color: var(--text); background: transparent; }
+
+/* ── 9. Modal ── */
+.modal { background: var(--surface); border-top-left-radius: 20px; border-top-right-radius: 20px; }
+.modal-overlay { background: rgba(0,0,0,.75); }
+
+.modal-detail .prod-name { font-size: 1.35rem; color: var(--text); }
+.modal-detail .prod-price { font-size: 1.5rem; color: var(--accent); }
+.modal-detail .prod-desc { color: var(--text-soft); }
+
+.variant-group { border: 1px solid var(--border-2); border-radius: 12px; background: var(--bg-2); }
+.variant-group h4 { color: var(--text-soft); font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: .78rem; }
+.variant-option {
+  background: var(--surface-2);
+  border: 1px solid var(--border-2);
+  color: var(--text-soft);
+  border-radius: 8px;
+  font-size: .82rem;
+}
+.variant-option.selected { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+.slider-slide { background: var(--bg-2); }
+.slider-btn { background: rgba(0,0,0,.5); color: var(--text); }
+.slider-dots .dot { background: var(--border-2); }
+.slider-dots .dot.active { background: var(--primary); }
+
+.modal-fav { color: var(--text-dim); }
+.modal-fav.active { color: var(--accent); }
+.modal-close { background: var(--surface-2); color: var(--text); }
+
+.btn-add-modal {
+  background: var(--primary);
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(212,55,10,.4);
+}
+
+/* ── 10. Carrito ── */
+.cart-drawer { background: var(--surface); border-top: 2px solid var(--border-2); }
+.cart-overlay { background: rgba(0,0,0,.7); }
+.cart-handle { background: var(--border-2); }
+.cart-header { border-bottom: 1px solid var(--border); }
+#cartTitle { color: var(--text); }
+.cart-close, .cart-back { color: var(--text-dim); }
+
+.cart-item { border-bottom: 1px solid var(--border); }
+.cart-item-name { color: var(--text); font-family: 'DM Sans', sans-serif; font-weight: 600; }
+.cart-item-variants { color: var(--text-dim); }
+.cart-item-price { color: var(--accent); font-family: 'Anton', sans-serif; }
+
+.cart-footer { background: var(--bg-2); border-top: 1px solid var(--border); }
+.cart-total-label { color: var(--text-soft); }
+.cart-total-value { color: var(--accent); font-size: 1.5rem; }
+.cart-total-items { color: var(--text-dim); }
+
+.btn-next {
+  background: var(--primary);
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(212,55,10,.4);
+}
+.btn-next:disabled { background: var(--surface-2); color: var(--text-dim); box-shadow: none; }
+
+.cart-step2 { background: var(--surface); }
+.delivery-toggle { background: var(--bg-2); border: 1px solid var(--border-2); border-radius: 10px; }
+.dtog-btn { color: var(--text-dim); font-family: 'DM Sans', sans-serif; }
+.dtog-btn.active { background: var(--primary); color: #fff; border-radius: 8px; }
+
+.form-field label { color: var(--text-soft); font-size: .8rem; font-weight: 600; }
+.form-field input,
+.form-field textarea {
+  background: var(--bg-2);
+  border: 1px solid var(--border-2);
+  color: var(--text);
+  border-radius: 10px;
+}
+.form-field input:focus,
+.form-field textarea:focus { border-color: var(--primary); outline: none; }
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+/* ── 11. Cart peek & badge ── */
+.cart-peek {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(212,55,10,.5);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+.pk-count { background: rgba(0,0,0,.25); border-radius: 50%; }
+.nav-badge { background: var(--primary); color: #fff; }
+
+/* ── 12. Bottom nav ── */
+.bottom-nav { background: var(--bg-2); border-top: 1px solid var(--border); }
+.nav-item { color: var(--text-dim); font-family: 'DM Sans', sans-serif; font-size: 11px; }
+.nav-item svg { color: var(--text-dim); }
+.nav-item.active { color: var(--primary); }
+.nav-item.active svg { color: var(--primary); }
+
+/* ── 13. WA float ── */
+.wa-float { background: #25D366; box-shadow: 0 4px 16px rgba(37,211,102,.4); }
+
+/* ── 14. Footer ── */
+footer { background: var(--bg); border-top: 1px solid var(--border); }
+#footerText { color: var(--text-dim); font-size: .75rem; }
+
+/* ── 15. Toast ── */
+.toast {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border-2);
+  border-radius: 10px;
+}
+
+/* ── 16. Legal modal ── */
+.legal-overlay { background: rgba(0,0,0,.75); }
+.legal-modal { background: var(--surface); border-radius: 20px; }
+#legalTitle { color: var(--text); }
+.legal-body { color: var(--text-soft); }
+#legalClose { color: var(--text-dim); background: var(--surface-2); }
+
+/* ── 17. Sedes / ubicación ── */
+.sede-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.sede-name { color: var(--text); font-family: 'Anton', sans-serif; }
+.sede-dir { color: var(--text-soft); }
+.btn-llamar { background: var(--primary); color: #fff; border-radius: 10px; }
