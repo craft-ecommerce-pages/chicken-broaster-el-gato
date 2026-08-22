@@ -102,20 +102,17 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 /* ── 4. Sticky bar & búsqueda ── */
 .sticky-bar { background: var(--bg-2); border-bottom: 1px solid var(--border); }
 
-.search-box {
+/* el contenedor lo forma el propio input (como el motor); no envolver en otra caja */
+.search-box input {
   background: var(--surface);
   border: 1px solid var(--border-2);
   border-radius: 14px;
-  padding: 10px 14px;
-  gap: 10px;
-}
-.search-box svg { color: var(--text-dim); flex-shrink: 0; width: 18px; height: 18px; }
-.search-box input {
   color: var(--text);
   font-size: 14px;
   font-family: 'DM Sans', sans-serif;
 }
 .search-box input::placeholder { color: var(--text-dim); }
+.search-box svg { color: var(--text-dim); }
 
 /* ── 5. Chips de categoría (tile-icon + label debajo, estilo Gordo Paul) ── */
 .cat-chip {
@@ -224,16 +221,14 @@ body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--t
 .modal-detail .prod-price { font-size: 1.5rem; color: var(--accent); }
 .modal-detail .prod-desc { color: var(--text-soft); }
 
-.variant-group { border: 1px solid var(--border-2); border-radius: 12px; background: var(--bg-2); }
+/* el grupo de variantes es solo label + pills, sin caja contenedora */
 .variant-group h4 { color: var(--text-soft); font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: .78rem; }
 .variant-option {
   background: var(--surface-2);
   border: 1px solid var(--border-2);
   color: var(--text-soft);
-  border-radius: 8px;
-  font-size: .82rem;
 }
-.variant-option.selected { background: var(--primary); border-color: var(--primary); color: #fff; }
+.variant-option.selected { color: #fff; border-color: transparent; }
 
 .slider-slide { background: var(--bg-2); }
 .slider-btn { background: rgba(0,0,0,.5); color: var(--text); }
