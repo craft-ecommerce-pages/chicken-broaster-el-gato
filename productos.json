@@ -52,8 +52,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -96,8 +95,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -140,8 +138,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -167,8 +164,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -255,9 +251,8 @@
       {
         "name": "Arroz",
         "options": [
-          "Moro",
-          "Arroz Blanco",
-          "Arroz con Menestra"
+          "Arroz con Menestra",
+          "Arroz Moro"
         ],
         "type": "option"
       }
@@ -283,8 +278,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -310,8 +304,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -354,8 +347,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -398,10 +390,50 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "32d69e9c-9369-4bc4-babf-be371b789586",
+    "slug": "papipollo",
+    "nombre": "Papipollo",
+    "precio": "2.75",
+    "precio_promo": "",
+    "categorias": [
+      "combos_pollo"
+    ],
+    "descripcion": "Papas fritas con pollo broaster crocante. Elige tu tamaño.",
+    "stock": null,
+    "imagenes": null,
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "Pequeña ($2.75)",
+            "price": 2.75
+          },
+          {
+            "label": "Mediana ($3.00)",
+            "price": 3
+          },
+          {
+            "label": "Doble Presa ($4.50)",
+            "price": 4.5
+          },
+          {
+            "label": "Reforzada ($5.00)",
+            "price": 5
+          },
+          {
+            "label": "Reforzada + Chorizos ($6.00)",
+            "price": 6
+          }
+        ]
       }
     ],
     "sku": ""
@@ -491,8 +523,7 @@
         "name": "Arroz",
         "options": [
           "Arroz con Menestra",
-          "Moro",
-          "Arroz Blanco"
+          "Arroz Moro con Queso"
         ],
         "type": "option"
       }
@@ -552,19 +583,33 @@
   },
   {
     "id": "e9a81058-46ea-49c7-b607-1b5427136745",
-    "slug": "salchipapa-mediana",
-    "nombre": "Salchipapa Mediana",
-    "precio": "2.00",
+    "slug": "salchipapa",
+    "nombre": "Salchipapa",
+    "precio": "1.50",
     "precio_promo": "",
     "categorias": [
       "porciones"
     ],
-    "descripcion": "Salchipapa mediana clásica.",
+    "descripcion": "Papas fritas con salchicha. Elige tu tamaño.",
     "stock": null,
     "imagenes": [
-      "/producto/salchipapa-mediana/images/salchipapa-mediana-1.webp"
+      "/producto/salchipapa/images/salchipapa-1.webp"
     ],
-    "variantes": [],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "Pequeña ($1.50)",
+            "price": 1.5
+          },
+          {
+            "label": "Mediana ($2.00)",
+            "price": 2
+          }
+        ]
+      }
+    ],
     "sku": ""
   },
   {
