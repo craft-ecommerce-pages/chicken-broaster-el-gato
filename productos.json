@@ -1,5 +1,88 @@
 [
   {
+    "id": "d4287f5b-6138-485f-a0ab-00a326e427a7",
+    "slug": "agua-dasani",
+    "nombre": "Agua Dasani",
+    "precio": "0.75",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Agua Dasani disponible en dos tamaños.",
+    "stock": null,
+    "imagenes": [
+      "/producto/agua-dasani/images/agua-dasani-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "600 ml ($0.75)",
+            "price": 0.75
+          },
+          {
+            "label": "1.2 litros ($1.00)",
+            "price": 1
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "60614816-2ea0-4ac4-af8f-976061737892",
+    "slug": "agua-dasani-galon",
+    "nombre": "Agua Dasani Galón",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Agua Dasani en presentación de galón.",
+    "stock": null,
+    "imagenes": [
+      "/producto/agua-dasani-galon/images/agua-dasani-galon-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "f451a200-6f9f-4129-b3b7-c2a022428aa0",
+    "slug": "agua-pure-water",
+    "nombre": "Agua Pure Water",
+    "precio": "0.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Agua Pure Water disponible en tres tamaños.",
+    "stock": null,
+    "imagenes": [
+      "/producto/agua-pure-water/images/agua-pure-water-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "Pequeña ($0.50)",
+            "price": 0.5
+          },
+          {
+            "label": "Mediana ($0.80)",
+            "price": 0.8
+          },
+          {
+            "label": "Grande ($1.50)",
+            "price": 1.5
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "7cc537a8-6898-4981-91e0-6b8754655964",
     "slug": "arroz-blanco-y-menestra",
     "nombre": "Arroz Blanco y Menestra",
@@ -103,6 +186,108 @@
     "sku": ""
   },
   {
+    "id": "a76645e6-73d7-4687-bd80-9e824dc6ef30",
+    "slug": "cerveza-biela",
+    "nombre": "Cerveza Biela",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Biela en lata.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-biela/images/cerveza-biela-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "b761475a-a352-4bf9-83a9-4a8fd31ffffc",
+    "slug": "cerveza-club",
+    "nombre": "Cerveza Club",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Club Premium en botella.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-club/images/cerveza-club-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "d82ded57-c474-4740-a32e-32c250491db9",
+    "slug": "cerveza-corona",
+    "nombre": "Cerveza Corona",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Corona Extra en botella.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-corona/images/cerveza-corona-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "314164db-0f35-4cd1-81e2-7982ecb0501f",
+    "slug": "cerveza-pilsener",
+    "nombre": "Cerveza Pilsener",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Pilsener en lata.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-pilsener/images/cerveza-pilsener-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "c4e7c3a8-1b0f-4896-bba5-7ebc4cf78654",
+    "slug": "cerveza-pilsener-light",
+    "nombre": "Cerveza Pilsener Light",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Pilsener Light en lata.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-pilsener-light/images/cerveza-pilsener-light-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "53e9a0b2-dc4b-48fa-abea-3eb2f8b344b1",
+    "slug": "cerveza-stella-artois",
+    "nombre": "Cerveza Stella Artois",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Cerveza Stella Artois en botella.",
+    "stock": null,
+    "imagenes": [
+      "/producto/cerveza-stella-artois/images/cerveza-stella-artois-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
     "id": "42385475-85fd-488b-a8f0-5d9f19f1c418",
     "slug": "chuleta-asada-a-la-parrilla",
     "nombre": "Chuleta Asada a la Parrilla",
@@ -169,6 +354,40 @@
         "type": "option"
       }
     ],
+    "sku": ""
+  },
+  {
+    "id": "622db32d-5955-4ede-abcb-305c604aad1b",
+    "slug": "coca-cola-3-litros",
+    "nombre": "Coca-Cola 3 Litros",
+    "precio": "4.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Coca-Cola familiar en presentación de 3 litros.",
+    "stock": null,
+    "imagenes": [
+      "/producto/coca-cola-3-litros/images/coca-cola-3-litros-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "a95da9fa-e2f3-4807-ae62-9f33a8c1b625",
+    "slug": "coca-cola-de-vidrio-15-litros",
+    "nombre": "Coca-Cola de Vidrio 1.5 Litros",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Coca-Cola en botella de vidrio retornable de 1.5 litros.",
+    "stock": null,
+    "imagenes": [
+      "/producto/coca-cola-de-vidrio-15-litros/images/coca-cola-de-vidrio-15-litros-1.webp"
+    ],
+    "variantes": [],
     "sku": ""
   },
   {
@@ -355,6 +574,37 @@
     "sku": ""
   },
   {
+    "id": "6b4fb099-18ba-40c0-9f0c-3a6d831b5800",
+    "slug": "energizante-220v",
+    "nombre": "Energizante 220V",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Bebida energizante 220V disponible en dos tamaños.",
+    "stock": null,
+    "imagenes": [
+      "/producto/energizante-220v/images/energizante-220v-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "Pequeña ($1.00)",
+            "price": 1
+          },
+          {
+            "label": "Grande ($1.50)",
+            "price": 1.5
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "ec8bd6ae-082e-47ec-bedf-dfdcdc177f1f",
     "slug": "filete-de-pollo-a-la-parrilla",
     "nombre": "Filete de Pollo a la Parrilla",
@@ -398,6 +648,286 @@
     "sku": ""
   },
   {
+    "id": "7abc44e0-6fcf-4515-80c6-3e89360c57cb",
+    "slug": "fuze-tea-1-litro",
+    "nombre": "Fuze Tea 1 Litro",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Té frío Fuze Tea en presentación de un litro.",
+    "stock": null,
+    "imagenes": [
+      "/producto/fuze-tea-1-litro/images/fuze-tea-1-litro-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "81d25044-23cd-427c-a32d-f22b7d2e5297",
+    "slug": "fuze-tea-550-ml",
+    "nombre": "Fuze Tea 550 ml",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Té frío Fuze Tea en botella de 550 ml.",
+    "stock": null,
+    "imagenes": [
+      "/producto/fuze-tea-550-ml/images/fuze-tea-550-ml-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "31cb4375-5957-4cf0-b222-09af8b559b3b",
+    "slug": "gaseosas-2-litros",
+    "nombre": "Gaseosas 2 Litros",
+    "precio": "2.75",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa familiar de 2 litros. Coca-Cola tiene precio diferenciado.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-2-litros/images/gaseosas-2-litros-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          {
+            "label": "Sprite ($2.75)",
+            "price": 2.75
+          },
+          {
+            "label": "Fioravanti ($2.75)",
+            "price": 2.75
+          },
+          {
+            "label": "Inca Kola ($2.75)",
+            "price": 2.75
+          },
+          {
+            "label": "Coca-Cola ($3.00)",
+            "price": 3
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "c543c659-ac1e-4fbc-bf1f-10315039c85d",
+    "slug": "gaseosas-de-vidrio-1-litro",
+    "nombre": "Gaseosas de Vidrio 1 Litro",
+    "precio": "1.25",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa en botella de vidrio retornable de un litro.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-de-vidrio-1-litro/images/gaseosas-de-vidrio-1-litro-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Coca-Cola",
+          "Sprite",
+          "Fanta",
+          "Fioravanti Fresa"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "8976c812-f04c-4380-93ec-c76cde3234d6",
+    "slug": "gaseosas-personales-300-ml",
+    "nombre": "Gaseosas Personales 300 ml",
+    "precio": "0.75",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa personal en botella plástica de 300 ml.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-personales-300-ml/images/gaseosas-personales-300-ml-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Coca-Cola",
+          "Fanta",
+          "Sprite",
+          "Fioravanti Fresa",
+          "Fioravanti Manzana"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "b99a5f78-5549-405d-b2b7-96933f601210",
+    "slug": "gaseosas-personales-500-ml",
+    "nombre": "Gaseosas Personales 500 ml",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa personal en botella plástica de 500 ml.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-personales-500-ml/images/gaseosas-personales-500-ml-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Coca-Cola",
+          "Sprite",
+          "Fioravanti Manzana",
+          "Fioravanti Fresa",
+          "Inca Kola",
+          "Fanta"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "175de729-10e4-4d76-ad60-48ec880ce51d",
+    "slug": "gaseosas-personales-de-vidrio-300-ml",
+    "nombre": "Gaseosas Personales de Vidrio 300 ml",
+    "precio": "0.75",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa personal en botella de vidrio retornable de 300 ml.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-personales-de-vidrio-300-ml/images/gaseosas-personales-de-vidrio-300-ml-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Coca-Cola",
+          "Fioravanti Manzana",
+          "Fioravanti Fresa",
+          "Inca Kola",
+          "Fanta",
+          "Sprite"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "37ceaa42-a007-451d-a830-614466276a0a",
+    "slug": "jugo-del-valle-1-litro",
+    "nombre": "Jugo Del Valle 1 Litro",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Jugo Del Valle en presentación de un litro.",
+    "stock": null,
+    "imagenes": [
+      "/producto/jugo-del-valle-1-litro/images/jugo-del-valle-1-litro-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "596ecdc8-412b-441a-87a9-a2480eea87bd",
+    "slug": "jugo-del-valle-2-litros",
+    "nombre": "Jugo Del Valle 2 Litros",
+    "precio": "2.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Jugo Del Valle en presentación familiar de 2 litros.",
+    "stock": null,
+    "imagenes": [
+      "/producto/jugo-del-valle-2-litros/images/jugo-del-valle-2-litros-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "1303e5ac-2776-4c46-af68-78a55e5ef8f0",
+    "slug": "jugo-power-1-litro",
+    "nombre": "Jugo Power 1 Litro",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Jugo Power de un litro en varios sabores.",
+    "stock": null,
+    "imagenes": [
+      "/producto/jugo-power-1-litro/images/jugo-power-1-litro-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Frutas Tropicales",
+          "Manzana",
+          "Mandarina",
+          "Uva"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "a80ecf65-79cf-4782-8e3a-ec7b770ed745",
+    "slug": "monster-energy",
+    "nombre": "Monster Energy",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Bebida energizante Monster en varios sabores.",
+    "stock": null,
+    "imagenes": [
+      "/producto/monster-energy/images/monster-energy-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Original Verde",
+          "Original Negro",
+          "Ultra Blanco",
+          "Azul"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "32d69e9c-9369-4bc4-babf-be371b789586",
     "slug": "papipollo",
     "nombre": "Papipollo",
@@ -409,7 +939,11 @@
     "descripcion": "Papas fritas con pollo broaster crocante. Elige tu tamaño.",
     "stock": null,
     "imagenes": [
-      "/producto/papipollo/images/papipollo-1.webp"
+      "/producto/papipollo/images/papipollo-1.webp",
+      "/producto/papipollo/images/papipollo-2.webp",
+      "/producto/papipollo/images/papipollo-3.webp",
+      "/producto/papipollo/images/papipollo-4.webp",
+      "/producto/papipollo/images/papipollo-5.webp"
     ],
     "variantes": [
       {
@@ -581,6 +1115,23 @@
     "stock": null,
     "imagenes": [
       "/producto/presa-adicional/images/presa-adicional-1.webp"
+    ],
+    "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "8f22aad3-7391-4f28-8692-6b99d8ff1e88",
+    "slug": "red-bull",
+    "nombre": "Red Bull",
+    "precio": "2.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Bebida energizante Red Bull en lata.",
+    "stock": null,
+    "imagenes": [
+      "/producto/red-bull/images/red-bull-1.webp"
     ],
     "variantes": [],
     "sku": ""
