@@ -48,6 +48,37 @@
     "sku": ""
   },
   {
+    "id": "28c5d673-2d75-4dc1-aed5-f82379bd6303",
+    "slug": "agua-mineral-guitig",
+    "nombre": "Agua Mineral Güitig",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Agua mineral con gas Güitig disponible en dos tamaños.",
+    "stock": null,
+    "imagenes": [
+      "/producto/agua-mineral-guitig/images/agua-mineral-guitig-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Tamaño",
+        "options": [
+          {
+            "label": "500 ml ($1.00)",
+            "price": 1
+          },
+          {
+            "label": "1 litro ($1.50)",
+            "price": 1.5
+          }
+        ]
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "f451a200-6f9f-4129-b3b7-c2a022428aa0",
     "slug": "agua-pure-water",
     "nombre": "Agua Pure Water",
@@ -749,6 +780,67 @@
     "sku": ""
   },
   {
+    "id": "52bbcb77-b2d1-40a0-85bb-a27ce4f253ff",
+    "slug": "gaseosas-economicas-1-litro",
+    "nombre": "Gaseosas Económicas 1 Litro",
+    "precio": "1.00",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa de un litro en sabores tradicionales.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-economicas-1-litro/images/gaseosas-economicas-1-litro-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
+    "id": "8a3af7a7-6680-42cb-8cd4-c38fe23b419d",
+    "slug": "gaseosas-economicas-300-ml",
+    "nombre": "Gaseosas Económicas 300 ml",
+    "precio": "0.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Gaseosa personal de 300 ml en sabores tradicionales.",
+    "stock": null,
+    "imagenes": [
+      "/producto/gaseosas-economicas-300-ml/images/gaseosas-economicas-300-ml-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "NaranjaMás",
+          "Kola Gallito",
+          "Manzana",
+          "Tropical",
+          "7Up"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "8976c812-f04c-4380-93ec-c76cde3234d6",
     "slug": "gaseosas-personales-300-ml",
     "nombre": "Gaseosas Personales 300 ml",
@@ -869,34 +961,6 @@
       "/producto/jugo-del-valle-2-litros/images/jugo-del-valle-2-litros-1.webp"
     ],
     "variantes": [],
-    "sku": ""
-  },
-  {
-    "id": "1303e5ac-2776-4c46-af68-78a55e5ef8f0",
-    "slug": "jugo-power-1-litro",
-    "nombre": "Jugo Power 1 Litro",
-    "precio": "1.50",
-    "precio_promo": "",
-    "categorias": [
-      "bebidas"
-    ],
-    "descripcion": "Jugo Power de un litro en varios sabores.",
-    "stock": null,
-    "imagenes": [
-      "/producto/jugo-power-1-litro/images/jugo-power-1-litro-1.webp"
-    ],
-    "variantes": [
-      {
-        "name": "Sabor",
-        "options": [
-          "Frutas Tropicales",
-          "Manzana",
-          "Mandarina",
-          "Uva"
-        ],
-        "type": "option"
-      }
-    ],
     "sku": ""
   },
   {
@@ -1100,6 +1164,34 @@
       "/producto/porcion-de-papa/images/porcion-de-papa-1.webp"
     ],
     "variantes": [],
+    "sku": ""
+  },
+  {
+    "id": "1303e5ac-2776-4c46-af68-78a55e5ef8f0",
+    "slug": "powerade-1-litro",
+    "nombre": "Powerade 1 Litro",
+    "precio": "1.50",
+    "precio_promo": "",
+    "categorias": [
+      "bebidas"
+    ],
+    "descripcion": "Bebida hidratante Powerade de un litro en varios sabores.",
+    "stock": null,
+    "imagenes": [
+      "/producto/powerade-1-litro/images/powerade-1-litro-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor",
+        "options": [
+          "Frutas Tropicales",
+          "Mora Azul",
+          "Uva",
+          "Manzana Clear"
+        ],
+        "type": "option"
+      }
+    ],
     "sku": ""
   },
   {
