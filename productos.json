@@ -320,17 +320,17 @@
   },
   {
     "id": "42385475-85fd-488b-a8f0-5d9f19f1c418",
-    "slug": "chuleta-asada-a-la-parrilla",
-    "nombre": "Chuleta Asada a la Parrilla",
+    "slug": "chuleta-ahumada",
+    "nombre": "Chuleta Ahumada",
     "precio": "5.00",
     "precio_promo": "",
     "categorias": [
       "asados_parrilla"
     ],
-    "descripcion": "Chuleta asada a la parrilla + papa frita + ensalada.",
+    "descripcion": "Chuleta Ahumada + papa frita + ensalada.",
     "stock": null,
     "imagenes": [
-      "/producto/chuleta-asada-a-la-parrilla/images/chuleta-asada-a-la-parrilla-1.webp"
+      "/producto/chuleta-ahumada/images/chuleta-ahumada-1.webp"
     ],
     "variantes": [],
     "sku": ""
