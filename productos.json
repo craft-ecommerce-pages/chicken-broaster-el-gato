@@ -1,5 +1,35 @@
 [
   {
+    "id": "c34cda89-59c4-4bf9-b380-f9418e13422a",
+    "slug": "10-presas",
+    "nombre": "10 Presas",
+    "tipo": "promocion",
+    "precio": "17.50",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "10 presas + 2 porciones de papas + 1 ensalada + 1 gaseosa de 1 litro.",
+    "stock": null,
+    "imagenes": [
+      "/producto/10-presas/images/10-presas-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "2,4,5"
+  },
+  {
     "id": "d4287f5b-6138-485f-a0ab-00a326e427a7",
     "slug": "agua-dasani",
     "nombre": "Agua Dasani",
@@ -994,6 +1024,36 @@
     "sku": "1"
   },
   {
+    "id": "4bf80c72-bb81-4f21-9f84-92fdb78f0be7",
+    "slug": "miercoles-de-pollo-doble",
+    "nombre": "Miércoles de Pollo Doble",
+    "tipo": "promocion",
+    "precio": "18.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "12 presas de pollo broaster + 2 papas fritas + 1 ensalada + 1 gaseosa de 1.5 L.",
+    "stock": null,
+    "imagenes": [
+      "/producto/miercoles-de-pollo-doble/images/miercoles-de-pollo-doble-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "3"
+  },
+  {
     "id": "a80ecf65-79cf-4782-8e3a-ec7b770ed745",
     "slug": "monster-energy",
     "nombre": "Monster Energy",
@@ -1319,5 +1379,95 @@
       }
     ],
     "sku": ""
+  },
+  {
+    "id": "2e352464-7e2e-44d4-8755-4433d6092401",
+    "slug": "viernes-de-costilla",
+    "nombre": "Viernes de Costilla",
+    "tipo": "promocion",
+    "precio": "21.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "1 costilla completa + 4 presas de pollo broaster + arroz + papas fritas + ensalada + gaseosa.",
+    "stock": null,
+    "imagenes": [
+      "/producto/viernes-de-costilla/images/viernes-de-costilla-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "5"
+  },
+  {
+    "id": "2758f64b-8180-48a5-9522-3c3d42023f24",
+    "slug": "viernes-de-parrilla",
+    "nombre": "Viernes de Parrilla",
+    "tipo": "promocion",
+    "precio": "19.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "6 presas de pollo broaster + 2 costillas + longaniza + papas fritas + ensalada + gaseosa de 1.5 L.",
+    "stock": null,
+    "imagenes": [
+      "/producto/viernes-de-parrilla/images/viernes-de-parrilla-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "5"
+  },
+  {
+    "id": "998a6b13-188b-4d78-8ae8-7af604c7d7fb",
+    "slug": "viernes-familiar",
+    "nombre": "Viernes Familiar",
+    "tipo": "promocion",
+    "precio": "29.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Para 3 a 4 personas: 10 presas de pollo + 1 libra de longaniza + media libra de carne + 3 papas fritas + ensalada grande + 2 gaseosas.",
+    "stock": null,
+    "imagenes": [
+      "/producto/viernes-familiar/images/viernes-familiar-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "5"
   }
 ]
