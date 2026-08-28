@@ -964,6 +964,36 @@
     "sku": ""
   },
   {
+    "id": "15e096c0-fbdc-4986-91a2-560056c260ff",
+    "slug": "lunes-de-sabor",
+    "nombre": "Lunes de Sabor",
+    "tipo": "promocion",
+    "precio": "16.50",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Parrillada Mixta El Gato: carne + chuleta + longaniza + arroz + menestra + papas + ensalada.",
+    "stock": null,
+    "imagenes": [
+      "/producto/lunes-de-sabor/images/lunes-de-sabor-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Sabor de gaseosa",
+        "options": [
+          "Pepsi",
+          "Frutaris",
+          "7Up",
+          "Kola Gallito",
+          "Tropical",
+          "Manzana",
+          "NaranjaMás"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": "1"
+  },
+  {
     "id": "a80ecf65-79cf-4782-8e3a-ec7b770ed745",
     "slug": "monster-energy",
     "nombre": "Monster Energy",

@@ -9,6 +9,15 @@
     "porciones": "➕ Porciones y Extras",
     "tarrinazo": "🫙 Tarrinazo"
   },
+  "category_order": [
+    "combos_pollo",
+    "platos_menestra",
+    "asados_parrilla",
+    "parrilladas",
+    "tarrinazo",
+    "porciones",
+    "bebidas"
+  ],
   "currency": "$",
   "hero_title": "El sabor que te \u003cspan class=\"hl\"\u003eatrapa\u003c/span\u003e 🍗",
   "location_intro": "Palestina · Frente a CNT · Vía Balzar · Guayaquil",
