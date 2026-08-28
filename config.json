@@ -1,5 +1,7 @@
 {
   "badge_category": "combos_pollo",
+  "catalog_notify_token": "36bd8329-2d5a-4f6b-99c3-1656c86f9660",
+  "catalog_notify_url": "https://crm.craftmarketing.agency/api/v1/catalog/notify-order",
   "categories": {
     "asados_parrilla": "🔥 Asados a la Parrilla",
     "bebidas": "🥤 Bebidas",
