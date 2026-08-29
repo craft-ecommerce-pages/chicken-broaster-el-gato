@@ -21,7 +21,17 @@
     "bebidas"
   ],
   "currency": "$",
-  "hero_title": "El sabor que te \u003cspan class=\"hl\"\u003eatrapa\u003c/span\u003e 🍗",
+  "hero_title": "El sabor que te <span class=\"hl\">atrapa</span> 🍗",
+  "location": {
+    "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2021801063984!2d-79.98269962427464!3d-1.6308546361013403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902cf1bfdb11373f%3A0xed28921aa75a1922!2sCHICKEN%20BROASTER%20%22EL%20GATO%22!5e0!3m2!1ses-419!2sec!4v1788014019118!5m2!1ses-419!2sec",
+    "sedes": [
+      {
+        "direccion": "Guayaquil · Palestina · Frente a CNT · Vía Balzar",
+        "nombre": "Chicken Broaster \"El Gato\"",
+        "telefono": "593989237657"
+      }
+    ]
+  },
   "location_intro": "Palestina · Frente a CNT · Vía Balzar · Guayaquil",
   "logo": "logo.png",
   "site_title": "Chicken Broaster El Gato – Palestina, Guayaquil",
