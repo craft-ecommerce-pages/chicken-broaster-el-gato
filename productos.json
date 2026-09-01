@@ -540,6 +540,32 @@
     "sku": ""
   },
   {
+    "id": "93bce4d2-c998-46a6-a3c4-9db9efd30a15",
+    "slug": "combo-estrella",
+    "nombre": "Combo Estrella",
+    "tipo": "promocion",
+    "precio": "5.99",
+    "precio_promo": "",
+    "categorias": [],
+    "descripcion": "Chuleta ahumada + pollo broaster + papas fritas + ensalada + arroz a elección. Incluye arroz con menestra de fréjol y Pepsi personal.",
+    "stock": null,
+    "imagenes": [
+      "/producto/combo-estrella/images/combo-estrella-1.webp"
+    ],
+    "variantes": [
+      {
+        "name": "Arroz a elección",
+        "options": [
+          "Arroz con menestra de fréjol",
+          "Arroz blanco",
+          "Arroz moro con queso"
+        ],
+        "type": "option"
+      }
+    ],
+    "sku": ""
+  },
+  {
     "id": "373084a6-b819-42cf-9752-850f362c6a27",
     "slug": "corvina-asada-arroz-y-menestra",
     "nombre": "Corvina Asada + Arroz y Menestra",
